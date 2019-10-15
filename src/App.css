@@ -1,22 +1,44 @@
-.App {
+h1, p, div.button {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+h1 {
+  font-size: 8vh;
+  margin: 20px 0 30px 0; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  color: darkgray;
+  font-size: 7vh;
+  margin: 25px;
+}
+
+div.calculator-body {
+  border: solid 2px black;
+  width: 420px;
+  margin: auto;
+}
+
+button {
   color: white;
+  font-size: 5vh;
+  width: 10vh;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+button.clear {
+  background: lightpink;
+}
+
+button.symbols {
+  background: lightblue;
+}
+
+button.number {
+  background: lightgray;
+}
+
+button.equal {
+  background: palegoldenrod;
 }

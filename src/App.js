@@ -53,8 +53,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className='calculator-body'>
           <h1>Simple Calculator</h1>
+        <div className='calculator-body'>
           <ResultComponent
             result={this.state.result}
           />
