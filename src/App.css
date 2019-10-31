@@ -15,14 +15,14 @@ p {
 
 div.calculator-body {
   border: solid 2px black;
-  width: 420px;
+  width: 50%;
   margin: auto;
 }
 
 button {
   color: white;
   font-size: 5vh;
-  width: 10vh;
+  width: 20%;
   border-radius: 10px;
   margin: 10px;
 }
